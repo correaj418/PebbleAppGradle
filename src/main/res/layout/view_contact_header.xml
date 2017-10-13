@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.getpebble.android.widget.PebbleTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="14sp" android:textColor="@color/sms_fave_text_header" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/contact_header_tv" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="4dp" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" />

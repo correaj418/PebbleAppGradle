@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/sms_background_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090116">
+        <com.getpebble.android.widget.PebbleTextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sms_max_contacts_added" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.getpebble.android.widget.PebbleTextView android:textSize="16sp" android:textColor="@color/orange_btn_bg" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/sms_add_contact_btn" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/sms_add_contact" />
+    </FrameLayout>
+    <View android:background="@color/black" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:alpha="0.1" />
+    <com.getpebble.android.widget.PebbleTextView android:textSize="16sp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/sms_no_contacts_added" android:padding="8dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/sms_help_text" />
+</LinearLayout>

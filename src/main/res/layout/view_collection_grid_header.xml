@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" pebble:layout_width="match_parent" pebble:layout_height="wrap_content">
+    <LinearLayout pebble:orientation="vertical" pebble:id="@id/header_layout" pebble:layout_width="match_parent" pebble:layout_height="wrap_content">
+        <View pebble:background="@color/dark_gray_2" pebble:layout_width="match_parent" pebble:layout_height="UNKNOWN_DATA_0xccccd31" />
+        <com.getpebble.android.widget.PebbleTextView pebble:textSize="18sp" pebble:textColor="@color/dark_gray_2" pebble:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" pebble:id="@id/watch_app_header_container" pebble:background="@color/very_dark_gray_1" pebble:padding="5dp" pebble:layout_width="match_parent" pebble:layout_height="match_parent" pebble:text="@string/app_archive_title" pebble:text_typeface="0" />
+        <View pebble:background="@color/dark_gray_2" pebble:layout_width="match_parent" pebble:layout_height="UNKNOWN_DATA_0xccccd31" />
+    </LinearLayout>
+</FrameLayout>

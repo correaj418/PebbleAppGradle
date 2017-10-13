@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:paddingLeft="10dp" app:paddingTop="12dp" app:paddingRight="10dp" app:paddingBottom="12dp" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ImageView app:id="@id/alert_icon" app:layout_width="UNKNOWN_DATA_0x1e01" app:layout_height="UNKNOWN_DATA_0x1e01" app:layout_marginRight="16dp" app:src="@drawable/alert_circle_grey" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_toRightOf="@id/alert_icon">
+        <com.getpebble.android.widget.PebbleTextView app:textSize="@dimen/mobile_alert_view_label_textSize" app:textColor="@color/white" app:ellipsize="end" app:id="@f/title" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="8dp" app:checked="false" app:maxLines="1" app:singleLine="true" />
+        <com.getpebble.android.widget.PebbleTextView app:textSize="@dimen/mobile_alert_view_label_textSize" app:textColor="@color/mobile_alerts_button_textview" app:id="@id/description" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="8dp" app:checked="false" app:lineSpacingMultiplier="1.2" />
+        <RelativeLayout app:paddingTop="8dp" app:paddingBottom="8dp" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <com.getpebble.android.widget.PebbleButton app:textStyle="bold" app:id="@id/positive_button" app:layout_alignParentLeft="true" app:button_typeface="0" style="@style/mobile_alerts_btn" />
+            <com.getpebble.android.widget.PebbleButton app:textStyle="bold" app:id="@id/negative_button" app:layout_marginLeft="5dp" app:layout_toRightOf="@id/positive_button" app:button_typeface="0" style="@style/mobile_alerts_btn" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

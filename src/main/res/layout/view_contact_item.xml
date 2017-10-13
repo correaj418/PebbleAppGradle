@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.getpebble.android.widget.PebbleTextView android:textSize="16sp" android:textColor="@color/black" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/contact_name_tv" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090116" android:drawableRight="@drawable/heart_icon" />
+    <View android:background="@color/black" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:alpha="0.1" />
+</LinearLayout>

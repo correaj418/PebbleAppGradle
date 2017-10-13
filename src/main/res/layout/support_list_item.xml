@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/menu_support" android:padding="@dimen/support_items_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/item_icon" android:layout_width="UNKNOWN_DATA_0x7f09011c" android:layout_height="UNKNOWN_DATA_0x7f09011c" android:layout_marginRight="@dimen/support_items_icon_margin_right" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/support_icon_content_description" />
+        <com.getpebble.android.widget.PebbleTextView android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/item_icon" style="@style/SupportTitleText" />
+        <com.getpebble.android.widget.PebbleTextView android:id="@id/item_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/item_icon" android:layout_below="@id/item_title" style="@style/SupportSummaryText" />
+    </RelativeLayout>
+    <View android:background="@color/support_divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090119" android:layout_marginLeft="@dimen/support_items_divider_margin_left" />
+</LinearLayout>

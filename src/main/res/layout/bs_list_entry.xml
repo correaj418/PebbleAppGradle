@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" style="@d/BottomSheet_ListItem">
+    <ImageView android:id="@b/bs_list_image" style="@d/BottomSheet_ListItemImage" />
+    <TextView android:id="@b/bs_list_title" style="@d/BottomSheet_ListItemTitle" />
+</LinearLayout>

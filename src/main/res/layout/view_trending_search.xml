@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/search_result_side_padding" android:paddingRight="@dimen/search_result_side_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.getpebble.android.widget.PebbleTextView android:textSize="@dimen/search_result_item_primary_text_size" android:textColor="@color/white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/search_term" android:paddingTop="@dimen/search_trending_vertical_padding" android:paddingBottom="@dimen/search_trending_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_trending_up" android:drawablePadding="@dimen/search_trending_drawable_padding" android:alpha="0.5" style="@style/OnboardStyle.Medium" />
+    <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginLeft="42dp" android:alpha="0.1" />
+</LinearLayout>

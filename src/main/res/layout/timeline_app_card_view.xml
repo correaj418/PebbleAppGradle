@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@drawable/card" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/app_text_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp">
+            <com.getpebble.android.common.framework.widget.AsyncImageView android:id="@id/app_icon" android:background="@drawable/watchface_placeholder_icon_square" android:layout_width="UNKNOWN_DATA_0x7f0900a1" android:layout_height="UNKNOWN_DATA_0x7f0900a1" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.getpebble.android.widget.PebbleTextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/app_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <com.getpebble.android.widget.PebbleTextView android:textSize="13sp" android:textColor="@color/onboarding_grab_apps_category" android:id="@id/app_developer_name" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <com.getpebble.android.widget.PebbleButton android:textColor="@color/white" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/app_add_button" android:background="@drawable/btn_orange_support" android:layout_width="UNKNOWN_DATA_0x5501" android:layout_height="UNKNOWN_DATA_0x1901" android:text="@string/onboarding_grab_apps_add_btn" />
+        </LinearLayout>
+        <View android:id="@id/line" android:background="@color/dark_gray_2" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x101" android:layout_margin="5dp" />
+        <com.getpebble.android.widget.PebbleTextView android:textSize="13sp" android:textColor="@color/onboarding_grab_apps_text" android:id="@id/app_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:maxLines="3" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" fab:orientation="vertical" fab:layout_width="match_parent" fab:layout_height="match_parent">
+    <FrameLayout fab:id="@id/child_fragment" fab:layout_width="match_parent" fab:layout_height="match_parent" />
+    <com.getpebble.android.main.sections.mypebble.view.SlidingTabLayout fab:id="@id/sliding_tabs" fab:layout_width="match_parent" fab:layout_height="wrap_content" />
+    <com.getpebble.android.widget.PebbleViewPager fab:id="@id/my_view_pager" fab:layout_width="match_parent" fab:layout_height="match_parent" fab:layout_below="@id/sliding_tabs" />
+    <com.melnykov.fab.FloatingActionButton fab:id="@id/floating_action_button" fab:layout_width="wrap_content" fab:layout_height="wrap_content" fab:layout_margin="25dp" fab:src="@drawable/ic_content_add" fab:layout_alignParentRight="true" fab:layout_alignParentBottom="true" fab:contentDescription="@string/app_store" fab:fab_colorPressed="@color/orange_statusbar_color" fab:fab_colorNormal="@color/default_orange_color" fab:fab_colorRipple="@color/translucent_black" fab:fab_shadow="true" />
+</RelativeLayout>

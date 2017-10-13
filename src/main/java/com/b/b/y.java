@@ -1,0 +1,8 @@
+package com.b.b;
+
+public enum y {
+    LOADED_FROM_MEMORY,
+    LOADED_FROM_CACHE,
+    LOADED_FROM_CONDITIONAL_CACHE,
+    LOADED_FROM_NETWORK
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/calendar_headings_container" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0900be">
+    <com.getpebble.android.widget.PebbleTextView android:textSize="@dimen/my_pebble_dashboard_text_size" android:textColor="@color/my_pebble_calendar_settings_header_text_gray" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/calendar_account_name" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0900be" android:layout_marginLeft="@dimen/my_pebble_dashboard_margin" />
+</LinearLayout>

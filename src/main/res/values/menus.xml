@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="app_muting_menu">res/menu/app_muting_menu.xml</menu>
+    <menu name="app_store_menu">res/menu/app_store_menu.xml</menu>
+    <menu name="canned_responses_menu">res/menu/canned_responses_menu.xml</menu>
+    <menu name="my_pebble_menu">res/menu/my_pebble_menu.xml</menu>
+    <menu name="search_menu">res/menu/search_menu.xml</menu>
+    <menu name="support_menu">res/menu/support_menu.xml</menu>
+</resources>
